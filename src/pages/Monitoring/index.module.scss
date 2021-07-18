@@ -1,0 +1,33 @@
+.monitoring {
+    padding: 20px;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        &__left {
+            width: 49%;
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        &__right {
+            width: 49%;
+            border: 1px solid #000;
+        }
+    }
+    &__bottom {
+        width: 100%;
+        border: 1px solid #000;
+        margin-top: 10px;
+        padding: 20px;
+        position: relative;
+    }
+    :global {
+        .ant-card {
+            padding: 10px;
+        }
+        .ant-pro-table-list-toolbar-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+    }
+}

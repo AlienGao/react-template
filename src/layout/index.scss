@@ -1,0 +1,17 @@
+.layout {
+  background: #fff;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+.content-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.locationInfo {
+  position: fixed;
+  top: 64px;
+  left: 216px;
+  font-size: 14px;
+  line-height: 30px;
+}
